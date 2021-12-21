@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather Checker</title>
+		<script src="scripts/app.js"></script>
+		<link rel="stylesheet" href="styles/styles.css" />
+	</head>
+	<body>
+		<h1>Weather Check</h1>
+
+		<div id="input">
+			<img src="images/sunny.png" alt="weather image" id="weatherImage" />
+			<br />
+			<input type="text" id="city" placeholder="Enter a city" />
+			<br />
+			<button id="submit" onclick="getWeather()">Submit</button>
+		</div>
+		<div id="weather">
+			<p>
+				<span id="city-name">City: </span>
+				<br />
+				<span id="temp">Temperature: </span>
+				<br />
+				<span id="humidity">Humidity: </span>
+				<br />
+				<span id="wind">Wind Speed: </span>
+				<br />
+				<span id="description">Description: </span>
+			</p>
+		</div>
+	</body>
+</html>
